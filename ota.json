@@ -1,0 +1,52 @@
+{
+  "info": {
+    "_postman_id": "362b45a8-3db3-4df2-835f-d631fbd6b4ba",
+    "name": "OTA-Update",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "6111691"
+  },
+  "item": [
+    {
+      "name": "Check for Update",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://raw.githubusercontent.com/JohnRommelCarr/Test_OTA-rep/main/ota.json",
+          "protocol": "https",
+          "host": [
+            "raw.githubusercontent.com"
+          ],
+          "path": [
+            "JohnRommelCarr",
+            "Test_OTA-rep",
+            "main",
+            "ota.json"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Download OTA Update",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://raw.githubusercontent.com/JohnRommelCarr/Test_OTA-rep/main/app-v1.0.2.tar.gz",
+          "protocol": "https",
+          "host": [
+            "raw.githubusercontent.com"
+          ],
+          "path": [
+            "JohnRommelCarr",
+            "Test_OTA-rep",
+            "main",
+            "app-v1.0.2.tar.gz"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
